@@ -30,7 +30,7 @@ function chooseANumber () {
 const counterTries = () => {
     tries++;
     counter.innerHTML = `Número de intentos: ${tries}`;
-}
+};
 
 
 function handleClickButton () {
