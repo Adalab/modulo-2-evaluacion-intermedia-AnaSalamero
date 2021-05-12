@@ -11,17 +11,19 @@
   <body>
 
     <header>
-        <h1>adivina el numero</h1>
+        <h1>Adivina el numero</h1>
     </header>
 
     <main>
         <h2>Introduce aqui tu numero:</h2>
-        <form class="form" action="#">
-            <input type="text">
-            <input type="button" value="Prueba" class="btn"></button>
+        <form action="#">
+            <input type="text" class="js-input">
+            <input type="button" value="Prueba" class="js-btn"></button>
         </form>
-        <h3>Pista: Escribe el numero y dale a Prueba</h3>
-        <h3>Numero de intentos: 0</h3>
+        <section>
+            <p class="js-clue">Pista: Escribe el numero y dale a Prueba</p>
+            <p class="js-counter">Numero de intentos: 0</p>
+        </section>
     </main>
 
     <script src="./main.js"></script>
