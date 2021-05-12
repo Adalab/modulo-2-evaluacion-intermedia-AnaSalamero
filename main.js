@@ -12,12 +12,12 @@ function getRandomNumber(max) {
 
 const randomNumber = getRandomNumber(100);
 
-console.log(`Mi numero aleatorio es ${randomNumber}`);
+console.log(`Mi número aleatorio es ${randomNumber}`);
 
 function chooseANumber () {
     const selectedNumber = parseInt(input.value);
     if (selectedNumber < 1 || selectedNumber > 100) {
-        clue.innerHTML = 'El numero debe estar entre 1 y 100';
+        clue.innerHTML = 'El número debe estar entre 1 y 100';
     } else if (selectedNumber === randomNumber) {
         clue.innerHTML = 'Has ganado campeona!!!';
     } else if (selectedNumber < randomNumber) {
@@ -29,7 +29,7 @@ function chooseANumber () {
 
 const counterTries = () => {
     tries++;
-    counter.innerHTML = `Numero de intentos: ${tries}`;
+    counter.innerHTML = `Número de intentos: ${tries}`;
 }
 
 
